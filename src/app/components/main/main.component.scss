@@ -1,0 +1,38 @@
+.head {
+    text-align: center;
+    .rounded-circle {
+        width: 30%;
+        border: 5px solid #A799B7;
+    }
+}
+
+h2 {
+    font-family: 'Merienda', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    text-align: left;
+    li {
+        margin-bottom: 2px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #776472;
+    }
+    img {
+        width: 10%;
+        margin-left: 3%;
+         filter: brightness(45.25);
+         filter: saturate(35);
+        filter: opacity(40%);
+        //filter: hue-rotate(180deg);
+    }
+}
+
+.fa {
+    margin-right: 4%;
+    margin-bottom: 3%;
+    color: #776472;
+    font-size: 1.5em;
+}
+
