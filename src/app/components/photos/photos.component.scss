@@ -1,0 +1,19 @@
+.d-block {
+    margin: auto;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: brightness(0.1);
+}
+
+img {
+    width: auto;
+    max-height: 600px;
+}
+
+@media (max-width: 600px) {
+    img {
+        width: auto;
+        max-height: 300px;
+    } 
+}
