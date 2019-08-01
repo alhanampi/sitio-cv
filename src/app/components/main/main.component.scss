@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
     color: #4e414c;
+
     &:hover {
         color: #854e7c;
         font-weight: bolder
@@ -9,6 +10,7 @@ a {
 
 .head {
     text-align: center;
+
     .rounded-circle {
         width: 30%;
         border: 5px solid #A799B7;
@@ -23,18 +25,19 @@ h2 {
 
 ul {
     text-align: left;
+
     li {
         margin-bottom: 2px;
         font-family: 'Noto Sans KR', sans-serif;
         color: #776472;
     }
+
     img {
         width: 10%;
         margin-left: 3%;
-         filter: brightness(45.25);
-         filter: saturate(35);
+        filter: brightness(45.25);
+        filter: saturate(35);
         filter: opacity(40%);
-        //filter: hue-rotate(180deg);
     }
 }
 
@@ -47,13 +50,14 @@ ul {
 
 .yo {
     p {
-    margin-left: 5%;
-    margin-right: 5%;
-    color: #4e414c;
-    font-size: 1.2em;
-    &:hover {
-        color: #7e5477;
-    }
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #4e414c;
+        font-size: 1.2em;
+
+        &:hover {
+            color: #7e5477;
+        }
     }
 }
 

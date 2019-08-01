@@ -11,12 +11,12 @@ import { PhotosComponent } from './components/photos/photos.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ReposComponent } from './components/repos/repos.component';
 
-const routes:Routes = [
-  {path: "", redirectTo: "home", pathMatch: "full"},
-  {path: "home", component: MainComponent},
-  {path: "photos", component:  PhotosComponent},
-  {path: "contact", component: ContactComponent},
-  {path: "github", component: ReposComponent},
+const routes: Routes = [
+  { path: "", redirectTo: "home", pathMatch: "full" },
+  { path: "home", component: MainComponent },
+  { path: "photos", component: PhotosComponent },
+  { path: "contact", component: ContactComponent },
+  { path: "github", component: ReposComponent },
 ]
 
 
@@ -34,7 +34,7 @@ const routes:Routes = [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot(
-      routes, {enableTracing: !true}
+      routes, { enableTracing: !true }
     )
   ],
   providers: [],

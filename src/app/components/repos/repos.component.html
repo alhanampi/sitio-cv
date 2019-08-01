@@ -1,1 +1,22 @@
-<p>repos works!</p>
+<h2>Algunos trabajos en github</h2>
+
+<div class="row">
+
+    <div class="card mb-3 h-auto  w-75" *ngFor="let repo of repos">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+
+                <img [src]="repo.img" alt="" class="mx-auto">
+            </div>
+            <div class="col-md-8">
+
+                <div class="card-body">
+                    <h5 class="card-title">{{repo.title}}</h5>
+                    <p class="card-text"> {{repo.text}}</p>
+                    <a [href]="repo.btn1" target="_blank" class="btn btn-info mx-2">Ver repo!</a>
+                    <a [href]="repo.btn2" target="_blank" class="btn btn-info mx-2">Ver app!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

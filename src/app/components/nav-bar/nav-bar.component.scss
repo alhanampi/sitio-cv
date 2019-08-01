@@ -1,6 +1,8 @@
-a, .fa {
+a,
+.fa {
     text-decoration: none;
     color: rgb(236, 221, 253);
+
     &:hover {
         color: rgb(229, 229, 229);
     }
@@ -8,7 +10,7 @@ a, .fa {
 
 .navbar {
     background-color: #A799B7;
- 
+
 }
 
 .fa {

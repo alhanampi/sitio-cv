@@ -1,0 +1,28 @@
+img {
+    width: 20rem;
+    height: auto;
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    &:hover {
+        filter: blur(4px);
+        transition: all .25s ease;
+    }
+}
+
+.card {
+    box-shadow: 6px 6px 3px -2px rgba(204, 202, 204, 1);
+    margin-bottom: 5px;
+    margin-left: 3%;
+
+}
+
+.btn-info {
+    background-color: rgb(170, 123, 149);
+    border-color: rgb(170, 123, 149);
+
+    &:hover {
+        background-color: rgb(126, 83, 106)
+    }
+}
